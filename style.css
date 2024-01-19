@@ -3,7 +3,9 @@
   padding: 0;
   box-sizing: border-box;
   font-family: arial;
+  scroll-behavior: smooth;
 }
+
 
 #navbar {
   height: 80px;
@@ -372,4 +374,8 @@ footer {
 .sticky a {
   text-decoration: none;
   color: #fafbfc;
+}
+
+#icon{
+  cursor: pointer;
 }
